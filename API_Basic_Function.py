@@ -7,4 +7,8 @@ def requestURL(baseurl, params = {}):
     prepped = req.prepare()
     return prepped.url
 
-print(requestURL(some_base_url, some_params_dictionary))
+#print(requestURL(some_base_url, some_params_dictionary))
+paramama = {"q":"violins and guitars", "tbm":"isch"}
+baseURL = "https://www.google.com/search"
+fullURL=requestURL(baseURL,paramama)
+print(fullURL)
