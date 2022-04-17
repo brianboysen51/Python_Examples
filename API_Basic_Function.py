@@ -14,3 +14,8 @@ baseURL = "https://www.google.com/search"
 fullURL=requestURL(baseURL,paramama)
 print(fullURL)
 
+newurl=requestURL("https://icanhazdadjoke.com/",{"text":"plain"})
+print(newurl)
+
+dadjoke=requests.get(newurl)
+print(dadjoke.text)
