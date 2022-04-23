@@ -1,7 +1,3 @@
-#title
+## Mich Python Course
 
-this is a test file
-
-## subheader
-
-practice exercies
+upload as practice with basic git bash/git hub
